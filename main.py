@@ -33,9 +33,5 @@ with col2:
         )
     else:
         st.info("Generate content first")
-    stApp {
-    background: url("https://img.freepik.com/free-photo/beautiful-monkey-spending-time-nature_23-2150754411.jpg?semt=ais_hybrid&w=740&q=80");
-    background-size: cover;
-    background-position: center;
 }
 
