@@ -33,5 +33,4 @@ with col2:
         )
     else:
         st.info("Generate content first")
-}
 
