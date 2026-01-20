@@ -4,8 +4,7 @@ st.set_page_config("PragyanAI Content Generator", layout="wide")
 st.title("📢 satyamAI – Content Generator")
 
 st.image(
-    "beautiful-monkey-spending-time-nature_23-2150754411.avif",
-    width=80,height=80)
+    "beautiful-monkey-spending-time-nature_23-2150754411.avif")
 
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
