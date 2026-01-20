@@ -1,5 +1,9 @@
 import streamlit as st
 from groq import Groq
+.stApp {
+    background: url("beautiful-monkey-spending-time-nature_23-2150754411.avif");
+    background-size: cover;
+}
 
 st.image("beautiful-monkey-spending-time-nature_23-2150754411.avif")
 st.set_page_config("PragyanAI Content Generator", layout="wide")
