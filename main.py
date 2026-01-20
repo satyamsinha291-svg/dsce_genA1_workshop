@@ -1,8 +1,21 @@
 import streamlit as st
 from groq import Groq
-
-
 st.image("beautiful-monkey-spending-time-nature_23-2150754411.avif")
+def set_bg():
+    st.markdown(
+        """
+        <style>
+        .stApp {
+            background-image: ("beautiful-monkey-spending-time-nature_23-2150754411.avif");
+            background-size: cover;
+            background-position: center;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
+
 st.set_page_config("PragyanAI Content Generator", layout="wide")
 st.title("📢 satyamAI – Content Generator")
 
@@ -34,17 +47,3 @@ with col2:
         )
     else:
         st.info("Generate content first")
-def set_bg():
-    st.markdown(
-        """
-        <style>
-        .stApp {
-            background-image: ("beautiful-monkey-spending-time-nature_23-2150754411.avif");
-            background-size: cover;
-            background-position: center;
-        }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
-
